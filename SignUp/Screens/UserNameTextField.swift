@@ -27,8 +27,21 @@ struct UserNameTextField: View {
                         .stroke(Color.init("titleColor"), lineWidth: 4)
             )
                 .frame(height: 40)
-            TextField("Username", text: $profile.username)
-                .disabled(selectedAvatar == .none ? true : false)
+            HStack {
+                Image(systemName: "person")
+                    .foregroundColor(.secondary)
+                TextField("Username", text: $profile.username)
+                    .disabled(selectedAvatar == .none ? true : false)
+            }
+            .padding(.leading)
         }
+    }
+}
+
+struct UserNameTextField_Previews: PreviewProvider {
+    @State static var profile = Profile()
+    static var previews: some View {
+        UserNameTextField(profile: $profile,
+                          selectedAvatar: Avatar.child)
     }
 }

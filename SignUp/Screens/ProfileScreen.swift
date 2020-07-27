@@ -8,16 +8,6 @@
 
 import SwiftUI
 
-struct ThemeTextField: TextFieldStyle {
-    public func _body(configuration: TextField<Self._Label>) -> some View {
-        configuration
-            .padding([.top, .leading, .bottom], 15.0)
-            .foregroundColor(Color.init("titleColor"))
-            .background(Color.clear)
-            .cornerRadius(25)
-    }
-}
-
 struct ProfileScreen: View {
     
     //MARK: - Data Dependencies
@@ -29,9 +19,9 @@ struct ProfileScreen: View {
     //MARK: - View
     var body: some View {
         ZStack {
+            // set view background color
             setBackgroundColor(avatar: selectedAvatar)
             .edgesIgnoringSafeArea(.all)
-            
             
             VStack {
                 // header area
@@ -55,19 +45,23 @@ struct ProfileScreen: View {
                 .padding(.bottom)
                 
                 // profile entry area
-                VStack(spacing: 15.0) {
+                VStack {
                     UserNameTextField(profile: $profile,
                                       selectedAvatar: selectedAvatar)
+                        .padding([.top, .bottom])
                     EmailTextField(profile: $profile,
                                    selectedAvatar: selectedAvatar)
+                    .padding(.bottom)
                     PasswordSecureField(profile: $profile,
                                         selectedAvatar: selectedAvatar)
+                    .padding(.bottom)
                     ConfirmPasswordSecureField(profile: $profile)
+                    .padding(.bottom)
                     SignUpButton(profile: $profile,
                                  selectedAvatar: $selectedAvatar)
+                        .padding(.bottom)
                 }
                 .padding(.horizontal, 25.0)
-                .textFieldStyle(ThemeTextField())
                 
                 // footer area
                 HStack {

@@ -36,9 +36,9 @@ struct SignUpButton: View {
     var body: some View {
         ZStack {
             if shouldButtonBeEnabled {
-            Capsule()
-                .fill(LinearGradient(gradient: Gradient(colors: [.red, .orange]), startPoint: .leading, endPoint: .trailing))
-                .frame(height: 60, alignment: .center)
+                Capsule()
+                    .fill(LinearGradient(gradient: Gradient(colors: [.red, .orange]), startPoint: .leading, endPoint: .trailing))
+                    .frame(height: 60, alignment: .center)
             } else {
                 Capsule()
                     .fill(Color.gray)
@@ -60,5 +60,14 @@ struct SignUpButton: View {
             self.selectedAvatar = .none
         }
         .disabled(!shouldButtonBeEnabled)
+    }
+}
+
+struct SignUpButton_Previews: PreviewProvider {
+    @State static var profile = Profile()
+    @State static var selectedAvatar = Avatar.child
+    static var previews: some View {
+        SignUpButton(profile: $profile,
+                     selectedAvatar: $selectedAvatar)
     }
 }
