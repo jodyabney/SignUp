@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10E19B924CD8CB90041DA6E /* ConfirmPasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E19B824CD8CB90041DA6E /* ConfirmPasswordSecureField.swift */; };
+		B10E19BB24CD91020041DA6E /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E19BA24CD91020041DA6E /* SignUpButton.swift */; };
+		B13CED2F24CD0F5E00738933 /* AvatarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CED2E24CD0F5E00738933 /* AvatarIcon.swift */; };
+		B13CED3124CD0FF000738933 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CED3024CD0FF000738933 /* Avatar.swift */; };
+		B13CED3324CD130600738933 /* UserNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CED3224CD130600738933 /* UserNameTextField.swift */; };
+		B13CED3524CD199900738933 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CED3424CD199900738933 /* EmailTextField.swift */; };
+		B13CED3724CD1F1C00738933 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CED3624CD1F1C00738933 /* PasswordSecureField.swift */; };
 		B1A51E4724CB93E8001C1339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51E4624CB93E8001C1339 /* AppDelegate.swift */; };
 		B1A51E4924CB93E8001C1339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51E4824CB93E8001C1339 /* SceneDelegate.swift */; };
 		B1A51E4B24CB93E8001C1339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51E4A24CB93E8001C1339 /* ContentView.swift */; };
 		B1A51E4D24CB93EC001C1339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A51E4C24CB93EC001C1339 /* Assets.xcassets */; };
 		B1A51E5024CB93EC001C1339 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A51E4F24CB93EC001C1339 /* Preview Assets.xcassets */; };
 		B1A51E5324CB93EC001C1339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A51E5124CB93EC001C1339 /* LaunchScreen.storyboard */; };
+		B1A51E8624CBC418001C1339 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A51E8524CBC418001C1339 /* Profile.swift */; };
+		B1BAA19F24CBC51200497458 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BAA19E24CBC51200497458 /* ProfileScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10E19B824CD8CB90041DA6E /* ConfirmPasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordSecureField.swift; sourceTree = "<group>"; };
+		B10E19BA24CD91020041DA6E /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		B13CED2E24CD0F5E00738933 /* AvatarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarIcon.swift; sourceTree = "<group>"; };
+		B13CED3024CD0FF000738933 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		B13CED3224CD130600738933 /* UserNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameTextField.swift; sourceTree = "<group>"; };
+		B13CED3424CD199900738933 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		B13CED3624CD1F1C00738933 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		B1A51E4324CB93E8001C1339 /* SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A51E4624CB93E8001C1339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A51E4824CB93E8001C1339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		B1A51E4F24CB93EC001C1339 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1A51E5224CB93EC001C1339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1A51E5424CB93EC001C1339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A51E8524CBC418001C1339 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B1BAA19E24CBC51200497458 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 		B1A51E4524CB93E8001C1339 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				B1A51E8424CBC3FC001C1339 /* Models */,
+				B1A51E8324CBC3F2001C1339 /* Screens */,
 				B1A51E4624CB93E8001C1339 /* AppDelegate.swift */,
 				B1A51E4824CB93E8001C1339 /* SceneDelegate.swift */,
 				B1A51E4A24CB93E8001C1339 /* ContentView.swift */,
@@ -73,6 +93,29 @@
 				B1A51E4F24CB93EC001C1339 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1A51E8324CBC3F2001C1339 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B1BAA19E24CBC51200497458 /* ProfileScreen.swift */,
+				B13CED2E24CD0F5E00738933 /* AvatarIcon.swift */,
+				B13CED3224CD130600738933 /* UserNameTextField.swift */,
+				B13CED3424CD199900738933 /* EmailTextField.swift */,
+				B13CED3624CD1F1C00738933 /* PasswordSecureField.swift */,
+				B10E19B824CD8CB90041DA6E /* ConfirmPasswordSecureField.swift */,
+				B10E19BA24CD91020041DA6E /* SignUpButton.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B1A51E8424CBC3FC001C1339 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1A51E8524CBC418001C1339 /* Profile.swift */,
+				B13CED3024CD0FF000738933 /* Avatar.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10E19B924CD8CB90041DA6E /* ConfirmPasswordSecureField.swift in Sources */,
 				B1A51E4724CB93E8001C1339 /* AppDelegate.swift in Sources */,
+				B1A51E8624CBC418001C1339 /* Profile.swift in Sources */,
 				B1A51E4924CB93E8001C1339 /* SceneDelegate.swift in Sources */,
+				B13CED3324CD130600738933 /* UserNameTextField.swift in Sources */,
+				B13CED3724CD1F1C00738933 /* PasswordSecureField.swift in Sources */,
+				B13CED2F24CD0F5E00738933 /* AvatarIcon.swift in Sources */,
+				B13CED3524CD199900738933 /* EmailTextField.swift in Sources */,
+				B13CED3124CD0FF000738933 /* Avatar.swift in Sources */,
 				B1A51E4B24CB93E8001C1339 /* ContentView.swift in Sources */,
+				B1BAA19F24CBC51200497458 /* ProfileScreen.swift in Sources */,
+				B10E19BB24CD91020041DA6E /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //MARK: - Data Dependencies
+    
+    
+    //MARK: - Properties
+    
+    
+    //MARK: - View
     var body: some View {
-        Text("Hello, World!")
+        ProfileScreen()
     }
 }
 
